@@ -1,0 +1,8 @@
+### Test cron
+GET http://localhost:3000/test-cron
+
+### Symbol list
+GET http://localhost:3000/symbols?period=1D
+
+### History Data
+GET http://localhost:3000/history?timeframe=1m&timeInterval=24&category=layer-1
